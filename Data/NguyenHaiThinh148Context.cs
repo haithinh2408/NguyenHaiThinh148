@@ -15,5 +15,7 @@ namespace NguyenHaiThinh148.Data
         }
 
         public DbSet<NguyenHaiThinh148.Models.PersonNHT148> PersonNHT148 { get; set; }
+
+        public DbSet<NguyenHaiThinh148.Models.NHT0148> NHT0148 { get; set; }
     }
 }
